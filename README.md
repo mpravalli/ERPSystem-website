@@ -9,3 +9,5 @@ if you click on order tab then it will shows some order details and it display r
 The whole project in index.html file if you run that remaining all connected.
 
 the png files are screenshots of this project.
+I deployed this project in netlify
+This is the link:https://65f449c0e62eac008bf5f98a--silver-madeleine-11ee9d.netlify.app/
