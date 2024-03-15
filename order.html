@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        body{
+            padding:50px;
+        }
+        </style>
+    </head>
+    <body>
+        <h2>Recent Orders</h2>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Pname</th>
+                                    <th>Pnumber</th>
+                                    <th>Payment</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>phone</td>
+                                    <td>85631</td>
+                                    <td>Due</td>
+                                    <td class="warning">Pending</td>
+                                    <td class="primary">Details</td>
+                                </tr>
+                                <tr>
+                                    <td>chair</td>
+                                    <td>85631</td>
+                                    <td>Due</td>
+                                    <td class="warning">Pending</td>
+                                    <td class="primary">Details</td>
+                                </tr>
+                                <tr>
+                                    <td>watch</td>
+                                    <td>85631</td>
+                                    <td>Due</td>
+                                    <td class="warning">Pending</td>
+                                    <td class="primary">Details</td>
+                                </tr>
+                            </tbody>
+                        </table><br><br>
+       <script>
+         const name=localStorage.getItem('Full-name:');
+         const pname=localStorage.getItem('Product-name:');
+        const quantity=localStorage.getItem('Quantity:');
+        const  arr=[];
+        arr.push(name);
+        arr.push(pname);
+        arr.push(quantity);
+        document.writeln("Recent order details:");
+        document.writeln(arr);
+       </script><br><br>
+       <a href="index.html"><button>back</button></a>
+    </body>
+</html>

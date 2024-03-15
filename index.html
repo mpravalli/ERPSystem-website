@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Dashboard</title>
+        <link href="https://fonts.googlepis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <aside>
+                <div class="top">
+                    <div class="logo">
+                        <h2>ERP System</h2>
+                    </div>
+                    <div class="close" id="close-btn">
+                        <span class="Material-Icons-Sharp"></span>
+                    </div>
+                </div>
+                <div class="sidebar">
+                    <a href="index.html">
+                        <h3>Dashboard</h3>
+                    </a>
+                    <a href="order.html">
+                        <h3>Orders</h3>
+                    </a>
+                    <a href="product.html">
+                        <h3>Products</h3>
+                    </a>
+                </div>
+            </aside>
+
+            <main>
+                <h1>Dashboard</h1>
+                <div class="date">
+                    <input type="date">
+                </div>
+
+                <div class="insights">
+                    <div class="sales">
+                        <div class="middle">
+                            <div class="left">
+                                <h3>Total Products</h3>
+                                <h1>25,024</h1>
+                            </div>
+                            <div class="progress">
+                                <svg>
+                                    <circle cx="38" cy="38" r="36"></circle>
+                                </svg>
+                                <div class="number">
+                                    <p>81%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <small class="text-muted">Last 24 Hours</small>
+                    </div>
+
+                    <div class="expences">
+                        <div class="middle">
+                            <div class="left">
+                                <h3>sold products</h3>
+                                <h1>14,160</h1>
+                            </div>
+                            <div class="progress">
+                                <svg>
+                                    <circle cx="38" cy="38" r="36"></circle>
+                                </svg>
+                                <div class="number">
+                                    <p>62%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <small class="text-muted">Last 24 Hours</small>
+                    </div>
+
+                    <div class="income">
+                        <div class="middle">
+                            <div class="left">
+                                <h3>Remainig Products</h3>
+                                <h1>10,864</h1>
+                            </div>
+                            <div class="progress">
+                                <svg>
+                                    <circle cx="38" cy="38" r="36"></circle>
+                                </svg>
+                                <div class="number">
+                                    <p>44%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <small class="text-muted">Last 24 Hours</small>
+                    </div>
+                    <div class="recent-order">
+                        <h2>Recent Orders</h2>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Pname</th>
+                                    <th>Pnumber</th>
+                                    <th>Payment</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>phone</td>
+                                    <td>85631</td>
+                                    <td>Due</td>
+                                    <td class="warning">Pending</td>
+                                    <td class="primary">Details</td>
+                                </tr>
+                                <tr>
+                                    <td>chair</td>
+                                    <td>85631</td>
+                                    <td>Due</td>
+                                    <td class="warning">Pending</td>
+                                    <td class="primary">Details</td>
+                                </tr>
+                                <tr>
+                                    <td>watch</td>
+                                    <td>85631</td>
+                                    <td>Due</td>
+                                    <td class="warning">Pending</td>
+                                    <td class="primary">Details</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <a href="#">Show All</a>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
